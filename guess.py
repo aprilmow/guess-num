@@ -1,6 +1,8 @@
 import random
+start = int(input('pick a start:'))
+end = int(input('where to stop:'))
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 
 count = 0
 while True:
